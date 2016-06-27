@@ -90,9 +90,21 @@
 
 					<h1 class="icon iconMailSent conTitle shippingTitle">Shipping Address</h1>
 					<div class="con shippingContainer">
+
 						<form action="#" class="form" enctype="multipart/form-data" method="post" id="myNameForm">
 							<div class="ancGrid full320">
-								<div class="ancCol w100">
+								<div class="ancCol w33">
+									<label for="fname">First Name</label>
+									<input type="text" id="fname" name="fname" />
+								</div>
+								<div class="ancCol w33">
+									<label for="lname">Last Name</label>
+									<input type="text" id="lname" name="lname" />
+								</div>
+								<div class="ancCol w33">
+									<img src="WePayForShipping.png" class="shippingCar" width="110px" height="auto">
+								</div>
+								<div class="ancCol w100 fixSpacingOnAddress">
 									<label for="streetAddress">Street Address</label>
 									<input type="text" id="streetAddress" name="streetAddress" />
 								</div>
@@ -124,6 +136,7 @@
 								</div>
 							</div>
 						</form>
+
 					</div>
 
 					<h1 class="icon iconCreditCard conTitle paymentTitle">Payment Information</h1>

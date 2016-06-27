@@ -71,5 +71,12 @@ div.con.checkoutContainer {
 div.con.paymentContainer {
   margin-top: 0px;
   padding-top: 0px;
+}
 
+.fixSpacingOnAddress {
+  margin-top: 0px;
+}
+
+.shippingCar {
+  margin-left: 30px;
 }
