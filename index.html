@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if lte IE 9]><script>document.documentElement.className += " ie";</script><script src="http://c.mfcreative.com/js/html5shiv.js"></script><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Demo Page</title>
+	<meta name="description" content=" " />
+	<link rel="stylesheet" href="http://c.mfcreative.com/lib/tgn/combo.ashx?x/css/v1/main.css&x/css/v1/activity-indicator.css&x/css/v2/alert.css&x/css/v1/autocomplete.css&x/css/v1/button.css&x/css/v1/callout.css&x/css/v1/card.css&x/css/v2/carousel.css&x/css/v1/container.css&x/css/v1/form.css&x/css/v1/grid.css&x/css/v1/icon.css&x/css/v3/modal.css&x/css/v2/paging.css&x/css/v1/photo.css&x/css/v2/progress.css&x/css/v2/tab.css&x/css/v1/table.css&x/css/v1/template.css&x/css/v1/user-card.css" />
+  <link rel="stylesheet" href="./style.css" type="text/css">
+	<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+
+
+<style>
+/* Page Specific Styles */
+</style>
+</head>
+<body>
+
+	<div class="mainCon">
+		<header class="pageHeader">
+			<h1 class="icon iconAcom ancestryIcon">ancestry</h1>
+		</header>
+
+	  <div class="progress">
+	  	<h4 class="progressTitle icon iconCart"><span class="hideVisually480">Checkout</span></h4>
+	  	<ol>
+				<li class="progressStep progressStepCompleted">Shipping Info<span class="hideVisually">. Completed.</span></li>
+	  		<li class="progressStep progressStepCurrent" data-mobile-label="Step 2 of 3: ">Billing Info<span class="hideVisually">. Current step.</span></li>
+	  		<li class="progressStep">Confirmation</li>
+	  	</ol>
+	  </div>
+
+		<div class="ancGrid ancGridEqual">
+				<section class="ancCol w66 half768 full480 conSecond">
+					<div class="checkoutTitle">
+						<h1 class="icon iconCart conTitle">Checkout</h1>
+
+
+					<div class="con checkoutContainer" >
+						<menu class="tabs tabsCon tabs320" data-tab="example5">
+							<button class="tab tabActive">Sign In</button>
+							<button class="tab">New to Ancestry?</button>
+						</menu>
+
+						<div class="conBody" data-tab-group="example5">
+
+							<div class="tabContent tabActive tab1">
+									<form action="#" class="form formLarge480" enctype="multipart/form-data" id="advancedValidation" method="post">
+										<div class="ancGrid">
+											<div class="ancCol w50 full320">
+												<label for="email1" data-error="Enter a valid email or else">Email<span class="icon iconCheck"></label>
+													<input type="email" id="email1" name="email1" placeholder="lou@ancestry.com" data-callout="This will also be your username." />
+												</div>
+												<div class="ancCol w50 ancColRow">
+													<label class="required" for="passwordA" data-error="Must be at least 6 characters">Password</label>
+													<input type="password" id="passwordA" name="passwordA" placeholder="At least 6 digits" />
+												</div>
+											</div>
+										</form>
+
+							</div>
+
+							<div class="tabContent tab2">
+								<form action="#" class="form formLarge480" enctype="multipart/form-data" id="advancedValidation" method="post">
+								  <div class="ancGrid">
+								      <div class="ancCol w50 full320">
+								        <label for="fullName" data-error="At least 3 characters">Full Name<span class="icon iconCheck"></span></label>
+								        <input type="text" id="fullName" name="firstName" placeholder="Laurie Ou" data-callout="Laurie" />
+								      </div>
+								      <div class="ancCol w50 full320">
+								        <label for="email1" data-error="Enter a valid email or else">Email<span class="icon iconCheck"></label>
+								        <input type="email" id="email1" name="email1" placeholder="lou@ancestry.com" data-callout="This will also be your username." />
+								      </div>
+								      <div class="ancCol w50 ancColRow">
+								        <label class="required" for="passwordA" data-error="Must be at least 6 characters">Password</label>
+								        <input type="password" id="passwordA" name="passwordA" placeholder="At least 6 digits" />
+								      </div>
+								      <div class="ancCol w50">
+								        <label class="required" for="passwordB">Retype Password</label>
+								        <input type="password" id="passwordB" name="passwordB" placeholder="Match example"/>
+								      </div>
+								    </div>
+								  </form>
+							</div>
+
+						</div>
+					</div>
+
+					<h1 class="icon iconMailSent conTitle shippingTitle">Shipping Address</h1>
+					<div class="con shippingContainer">
+						<form action="#" class="form" enctype="multipart/form-data" method="post" id="myNameForm">
+							<div class="ancGrid full320">
+								<div class="ancCol w100">
+									<label for="streetAddress">Street Address</label>
+									<input type="text" id="streetAddress" name="streetAddress" />
+								</div>
+								<div class="ancCol w33">
+									<label for="cityName">City</label>
+									<input type="text" id="cityName" name="cityName" />
+								</div>
+								<div class="ancCol w33 full320">
+									<label for="stateName" data-error="Please choose one">State</label>
+									<select id="stateName">
+										<option value="">Choose...</option>
+										<option value="birth">California</option>
+										<option value="marriage">New York</option>
+										<option value="death">Colorado</option>
+									</select>
+								</div>
+								<div class="ancCol w33">
+									<label for="zipName">Zip</label>
+									<input type="text" id="zipName" name="zipName" />
+								</div>
+								<div class="ancCol w100 full320">
+									<label for="country" data-error="Please choose one">Country</label>
+									<select id="country">
+										<option value="">Choose...</option>
+										<option value="birth">USA</option>
+										<option value="marriage">Europe</option>
+										<option value="death">Asia</option>
+									</select>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<h1 class="icon iconCreditCard conTitle paymentTitle">Payment Information</h1>
+					<div class="con paymentContainer">
+						<form action="#" class="form" enctype="multipart/form-data" method="post">
+							<div class="ancGrid full320">
+								<div class="ancCol w60">
+									<label for="cardNumber">Card Number</label>
+									<input type="text" id="cardNumber" name="cardNumber" />
+								</div>
+								<div class="ancCol w33">
+									<img src="acceptedCards.png" class="cards" width="200px" height="auto">
+								</div>
+								<div class="ancCol w25 full320">
+									<label for="expDate" data-error="Please choose one">Expiration Date</label>
+									<select id="expDate">
+										<option value="">Choose...</option>
+										<option value="">01</option>
+										<option value="">02</option>
+										<option value="">03</option>
+
+									</select>
+								</div>
+								<div class="ancCol w25 full320">
+									<label for="expYear" data-error="Please choose one">Year</label>
+									<select id="expYear">
+										<option value="">Choose...</option>
+										<option value="">2016</option>
+										<option value="">2017</option>
+										<option value="">2018</option>
+										<option value="">2019</option>
+
+
+									</select>
+								</div>
+								<div class="ancCol w33">
+									<label for="securityCode">Security Code</label>
+									<input type="text" id="securityCode" name="securityCode" />
+								</div>
+							</div>
+						</form>
+
+						<h1 class="icon iconExpand ancestryIcon">Billing address is same as shipping address</h1>
+
+					</div>
+
+					<button class="ancBtn" type="button">Continue</button>
+
+				</section>
+
+
+			<section class="ancCol w33 half768 full480 conSecond dnaKit">
+				<h1 class="icon iconCart ancestrySideIcon">Ancestry DNAKit</h1>
+				<img src="DNAKit.png" width="300px" height="auto">
+			</section>
+	</div>
+
+	<div id="FooterRegion"></div>
+<script src="http://c.mfcreative.com/lib/tgn/combo.ashx?x/lib/jquery/jquery-1.11.1.min.js&x/js/v2/alert.js&x/js/v1/autocomplete.js&x/js/v1/callout.js&x/js/v2/carousel.js&x/js/v1/form.js&x/js/v3/modal.js&x/js/v2/paging.js&x/js/v2/tab.js&x/lib/tgn/util/v1.1/ajaxmanager.js&x/lib/tgn/util/v1.1/resourcemanager.js"></script>
+<script>
+$(function() {
+	/* Header Footer */
+	AjaxManager.send({
+		url: 'http://navigation.ancestry.com/ajax/header/standard?source=yoursubdomain.ancestry.com'
+	});
+	AjaxManager.send({
+		url: 'http://footer.ajax.ancestry.com'
+	});
+	/* Page Specific JS */
+});
+</script>
+</body>
+</html>

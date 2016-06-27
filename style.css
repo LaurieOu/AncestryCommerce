@@ -1,0 +1,75 @@
+.iconAcom {
+  font-size: 30px;
+}
+
+.mainCon {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.ancCol {
+  margin-top: 20px;
+}
+
+.progress{
+  margin-bottom: 20px;
+}
+
+.iconCheck{
+  color: #b8d94c;
+  padding-left: 10px;
+}
+
+.tabsCon {
+  padding: 0px;
+}
+
+.ancBtn {
+  margin-top: 20px;
+}
+
+.checkoutTitle{
+  /*margin-top: 20px;
+  margin-left: 20px;*/
+  margin: 20px;
+}
+
+.conTitle{
+  background-color: #97cfcb;
+  padding: 10px;
+}
+
+.shippingTitle {
+  margin-top: 40px;
+  background-color: #71b5b0;
+}
+
+.paymentTitle {
+  margin-top: 40px;
+  background-color: #b8d94c;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+h1.ancestrySideIcon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+div.con.shippingContainer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+div.con.checkoutContainer {
+  margin-top: 0px;
+}
+
+div.con.paymentContainer {
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
